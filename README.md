@@ -3,7 +3,15 @@
 </p>
 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=3b1b-sh&count_private=true&theme=buefy&show_icons=true&include_all_commits=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=3b1b-sh&count_private=true&theme=buefy&show_icons=true&include_all_commits=true)  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=3b1b-sh&layout=donut)](https://github.com/3b1b-sh)
+
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=3b1b-sh&repo=Project-Performance-Evaluation-of-Bandit-Algorithms&show_owner=true
+)](https://github.com/3b1b-sh/Project-Performance-Evaluation-of-Bandit-Algorithms )                           
+
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=3b1b-sh&layout=normal)](https://github.com/3b1b-sh) -->
+
+
 
 <!-- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=3b1b-sh&hide=contribs,prs) -->
 
