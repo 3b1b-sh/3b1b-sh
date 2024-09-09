@@ -6,17 +6,10 @@
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=3b1b-sh&count_private=true&theme=buefy&show_icons=true&include_all_commits=true)  [![GitHub Streak](https://streak-stats.demolab.com?user=3b1b-sh&card_width=535)](https://git.io/streak-stats)
 
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=3b1b-sh&layout=donut)](https://github.com/3b1b-sh)
-
 <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=3b1b-sh&theme=github-compact&hide_border=true&area=true" />
 
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Epiphany_Resolution)](https://github.com/anuraghazra/github-readme-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=3b1b-sh&theme=transparent&hide_border=true&layout=donut&langs_count=8)](https://github.com/3b1b-sh)
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Epiphany_Resolution)](https://github.com/anuraghazra/github-readme-stats)
-
-                        
-
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=3b1b-sh&theme=transparent&hide_border=true&layout=donut-vertical&langs_count=6" />
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=3b1b-sh&repo=Project-Performance-Evaluation-of-Bandit-Algorithms&show_owner=true
 )](https://github.com/3b1b-sh/Project-Performance-Evaluation-of-Bandit-Algorithms )                           
