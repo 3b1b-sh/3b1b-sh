@@ -17,6 +17,12 @@
     <img src="https://skillicons.dev/icons?i=github,py,c,cpp,md,vscode,matlab,bash,git,gitlab,docker,linux,powershell&theme=light" />  
 </div>
 
+<p align="center">
+<a href="https://github.com/3b1b-sh"><img src="https://img.shields.io/badge/GitHub-3b1b-sh?logo=github" /></a>
+<!-- https://github.com/antonkomarev/github-profile-views-counter -->
+<img src="https://komarev.com/ghpvc/?username=3b1b-sh&abbreviated=true&color=yellow" />
+</p>
+
 
 
 <p align="center">
