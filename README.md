@@ -29,6 +29,24 @@
     </a>  
 </div>
 
+<div style="display: flex; justify-content: space-between;">  
+    <a href="https://github.com/3b1b-sh/Deep_learning_Cardiac_Cine_MRI">  
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=3b1b-sh&repo=Deep_learning_Cardiac_Cine_MRI&show_owner=true" alt="Readme Card">  
+    </a>  
+    <a href="https://github.com/3b1b-sh/Building-a-toy-RVC-CPU">  
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=3b1b-sh&repo=Building-a-toy-RVC-CPU&show_owner=true" alt="Readme Card">  
+    </a>  
+</div>
+
+<div style="display: flex; justify-content: space-between;">  
+    <a href="https://github.com/3b1b-sh/Flappy-bird-game-on-Longan-Nano">  
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=3b1b-sh&repo=Flappy-bird-game-on-Longan-Nano&show_owner=true" alt="Readme Card">  
+    </a>  
+    <a href="https://github.com/3b1b-sh/2D_Self_Driving_Simulator">  
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=3b1b-sh&repo=2D_Self_Driving_Simulator&show_owner=true" alt="Readme Card">  
+    </a>  
+</div>
+
 
 <div align="center">  
     <img src="https://skillicons.dev/icons?i=github,py,c,cpp,md,vscode,matlab,bash,git,gitlab,docker,linux,powershell&theme=light" />  
@@ -38,6 +56,8 @@
 <a href="https://github.com/3b1b-sh"><img src="https://img.shields.io/badge/GitHub-3b1b-sh?logo=github" /></a>
 <img src="https://komarev.com/ghpvc/?username=3b1b-sh&abbreviated=true&color=yellow" />
 </p>
+
+
 
 
 
