@@ -13,9 +13,21 @@
 
 <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=3b1b-sh&theme=github-compact&hide_border=true&area=true" />
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Epiphany_Resolution)](https://github.com/anuraghazra/github-readme-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=3b1b-sh&theme=transparent&hide_border=true&layout=donut-vertical&langs_count=7)](https://github.com/3b1b-sh)
+<!-- [![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Epiphany_Resolution)](https://github.com/anuraghazra/github-readme-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=3b1b-sh&theme=transparent&hide_border=true&layout=donut-vertical&langs_count=7)](https://github.com/3b1b-sh)-->
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=3b1b-sh&repo=Project-Performance-Evaluation-of-Bandit-Algorithms&show_owner=true)](https://github.com/3b1b-sh/Project-Performance-Evaluation-of-Bandit-Algorithms )          
+<div style="text-align: center;">  
+    <img style="display: inline-block; margin: 0 10px;" src="https://github-readme-stats.vercel.app/api/wakatime?username=Epiphany_Resolution&theme=transparent&hide_border=true&layout=compact&langs_count=22" />  
+    <img style="display: inline-block; margin: 0 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=3b1b-sh&theme=transparent&hide_border=true&layout=donut-vertical&langs_count=7" />  
+</div>
+
+<div style="display: flex; justify-content: space-between;">  
+    <a href="https://github.com/3b1b-sh/Project-Performance-Evaluation-of-Bandit-Algorithms">  
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=3b1b-sh&repo=Project-Performance-Evaluation-of-Bandit-Algorithms&show_owner=true" alt="Readme Card">  
+    </a>  
+    <a href="https://github.com/3b1b-sh/Deep_learning_Dynamic_MRI_Reconstruction">  
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=3b1b-sh&repo=Deep_learning_Dynamic_MRI_Reconstruction&show_owner=true" alt="Readme Card">  
+    </a>  
+</div>
 
 
 <div align="center">  
