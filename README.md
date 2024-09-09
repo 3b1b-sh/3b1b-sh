@@ -12,7 +12,7 @@
 <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=3b1b-sh&theme=github-compact&hide_border=true&area=true" />
 
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=3b1b-sh)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Epiphany_Resolution)](https://github.com/anuraghazra/github-readme-stats)
 
                         
 
