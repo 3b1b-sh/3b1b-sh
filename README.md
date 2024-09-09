@@ -12,7 +12,7 @@
 <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=3b1b-sh&theme=github-compact&hide_border=true&area=true" />
 
 
-<img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=3b1b-sh&theme=transparent&hide_border=true&layout=compact&langs_count=22" />
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=3b1b-sh)](https://github.com/anuraghazra/github-readme-stats)
 
                         
 
