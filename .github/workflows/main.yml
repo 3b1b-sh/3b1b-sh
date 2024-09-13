@@ -7,8 +7,7 @@ on:
 
 jobs:
   build:
-
-    runs-on: windows-latest  
+    runs-on: ubuntu-latest  
 
     steps:
     - uses: actions/checkout@v3  
@@ -19,6 +18,8 @@ jobs:
     - name: Update README.md
       run: node index.js > README.md
     - name: Commit change & Push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
       run: |
           git config user.name 'github-actions[bot]'
           git config user.email '66540507+github-actions[bot]@users.noreply.github.com'
