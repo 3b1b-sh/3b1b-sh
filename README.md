@@ -1,3 +1,17 @@
+### Hi there 👋
+
+⏳ Year progress { █████████████████████▁▁▁▁▁▁▁▁▁ } 70.02 %
+
+---
+
+⏰ Updated on Fri, 13 Sep 2024 06:50:06 GMT
+
+![Progress Bar CI](https://github.com/liununu/liununu/workflows/Progress%20Bar%20CI/badge.svg)
+
+<p align="center">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&&section=footer&text=The%20End&fontSize=90&fontAlign=50&fontAlignY=70&desc=Hope%20%you%20have%20a%20nice%20day%20!&descAlign=50&descSize=30&descAlignY=40&animation=twinkling" />
+</p>
+
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&&section=header&text=Hi%20There&fontSize=90&fontAlign=50&fontAlignY=30&desc=I%20am%20Eric%20Hu&descAlign=50&descSize=30&descAlignY=60&animation=twinkling" />
 </p>
@@ -52,17 +66,5 @@
     <img src="https://komarev.com/ghpvc/?username=3b1b-sh&abbreviated=true&color=yellow" />
 </p>
 
-### Hi there 👋
 
-⏳ Year progress { █████████████████████▁▁▁▁▁▁▁▁▁ } 70.02 %
-
----
-
-⏰ Updated on Fri, 13 Sep 2024 06:46:30 GMT
-
-![Progress Bar CI](https://github.com/liununu/liununu/workflows/Progress%20Bar%20CI/badge.svg)
-
-<p align="center">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&&section=footer&text=The%20End&fontSize=90&fontAlign=50&fontAlignY=70&desc=Hope%20%you%20have%20a%20nice%20day%20!&descAlign=50&descSize=30&descAlignY=40&animation=twinkling" />
-</p>
 
