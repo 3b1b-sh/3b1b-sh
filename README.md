@@ -4,12 +4,12 @@
 
 ---
 
-⏰ Updated on Fri, 13 Sep 2024 07:24:01 GMT
+⏰ Updated on Fri, 13 Sep 2024 07:32:07 GMT
 
 ![Progress Bar CI](https://github.com/liununu/liununu/workflows/Progress%20Bar%20CI/badge.svg)
 
 ### My Github Contribution
-![](https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/github-contribution-grid-snake.svg)
+![](https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/output/github-contribution-grid-snake.svg)
 
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&&section=header&text=Hi%20There&fontSize=90&fontAlign=50&fontAlignY=30&desc=I%20am%20Eric%20Hu&descAlign=50&descSize=30&descAlignY=60&animation=twinkling" />
