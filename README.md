@@ -1,10 +1,10 @@
 ### Hi there 👋
 
-⏳ Year progress { ██████████████████████▁▁▁▁▁▁▁▁ } 74.66 %
+⏳ Year progress { ██████████████████████▁▁▁▁▁▁▁▁ } 74.73 %
 
 ---
 
-⏰ Updated on Mon, 30 Sep 2024 06:23:27 GMT
+⏰ Updated on Mon, 30 Sep 2024 12:32:55 GMT
 
 ![Progress Bar CI](https://github.com/liununu/liununu/workflows/Progress%20Bar%20CI/badge.svg)
 
@@ -26,7 +26,7 @@
 
 <div style="text-align: center;">  
     <img style="display: inline-block; margin: 0 10px;" src="https://github-readme-stats.vercel.app/api/wakatime?username=Epiphany_Resolution&theme=transparent&hide_border=true&layout=compact&langs_count=22" />  
-    <img style="display: inline-block; margin: 0 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=3b1b-sh&theme=transparent&hide_border=true&layout=donut-vertical&langs_count=20" />  
+    <img style="display: inline-block; margin: 0 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=3b1b-sh&theme=transparent&hide_border=true&layout=donut-vertical&langs_count=7" />  
 </div>
 
 <div style="display: flex; justify-content: space-between;">  
