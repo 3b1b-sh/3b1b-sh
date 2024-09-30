@@ -26,7 +26,7 @@
 
 <div style="text-align: center;">  
     <img style="display: inline-block; margin: 0 10px;" src="https://github-readme-stats.vercel.app/api/wakatime?username=Epiphany_Resolution&theme=transparent&hide_border=true&layout=compact&langs_count=22" />  
-    <img style="display: inline-block; margin: 0 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=3b1b-sh&theme=transparent&hide_border=true&layout=donut-vertical&langs_count=24" />  
+    <img style="display: inline-block; margin: 0 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=3b1b-sh&theme=transparent&hide_border=true&layout=donut-vertical&langs_count=20" />  
 </div>
 
 <div style="display: flex; justify-content: space-between;">  
