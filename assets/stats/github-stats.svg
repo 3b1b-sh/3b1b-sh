@@ -1,38 +1,37 @@
 <svg width="400" height="190" viewBox="0 0 400 190" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .title { font: 700 18px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #2f80ed; }
-    .metric { font: 700 24px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #24292f; }
+    .metric { font: 700 19px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #24292f; }
     .label { font: 500 11px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #57606a; }
-    .small { font: 600 12px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #24292f; }
-    .value { font: 700 12px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #2f80ed; }
+    .rank { font: 700 25px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #24292f; }
+    .muted { font: 500 10px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8c959f; }
   </style>
 
   <text x="22" y="32" class="title">3b1b-sh's GitHub Stats</text>
 
-  <text x="54" y="76" text-anchor="middle" class="metric">12</text>
-  <text x="54" y="96" text-anchor="middle" class="label">Repositories</text>
+  <circle cx="78" cy="104" r="43" fill="none" stroke="#eaeef2" stroke-width="10"/>
+  <circle cx="78" cy="104" r="43" fill="none" stroke="#2f80ed" stroke-width="10" pathLength="100" stroke-dasharray="72 28" stroke-linecap="round" transform="rotate(-90 78 104)"/>
+  <text x="78" y="104" text-anchor="middle" class="rank">B</text>
+  <text x="78" y="122" text-anchor="middle" class="muted">profile</text>
 
-  <text x="162" y="76" text-anchor="middle" class="metric">31</text>
-  <text x="162" y="96" text-anchor="middle" class="label">Followers</text>
+  <text x="178" y="75" text-anchor="middle" class="metric">12</text>
+  <text x="178" y="94" text-anchor="middle" class="label">Repositories</text>
 
-  <text x="292" y="76" text-anchor="middle" class="metric">189</text>
-  <text x="292" y="96" text-anchor="middle" class="label">Contributions</text>
+  <text x="286" y="75" text-anchor="middle" class="metric">60</text>
+  <text x="286" y="94" text-anchor="middle" class="label">Total Stars</text>
 
-  <line x1="108" y1="55" x2="108" y2="102" stroke="#eaeef2"/>
-  <line x1="222" y1="55" x2="222" y2="102" stroke="#eaeef2"/>
+  <text x="178" y="134" text-anchor="middle" class="metric">31</text>
+  <text x="178" y="153" text-anchor="middle" class="label">Followers</text>
 
-  <circle cx="28" cy="130" r="4" fill="#2f80ed"/>
-  <text x="42" y="134" class="small">Current streak</text>
-  <text x="198" y="134" text-anchor="end" class="value">0</text>
+  <text x="286" y="134" text-anchor="middle" class="metric">189</text>
+  <text x="286" y="153" text-anchor="middle" class="label">Contributions</text>
 
-  <circle cx="228" cy="130" r="4" fill="#f97316"/>
-  <text x="242" y="134" class="small">Longest streak</text>
-  <text x="370" y="134" text-anchor="end" class="value">4</text>
+  <line x1="232" y1="58" x2="232" y2="154" stroke="#eaeef2"/>
+  <line x1="148" y1="105" x2="356" y2="105" stroke="#eaeef2"/>
 
-  <rect x="24" y="160" width="348" height="7" rx="3.5" fill="#eaeef2"/>
-  <rect x="24" y="160" width="118" height="7" rx="3.5" fill="#2f80ed"/>
-  <rect x="142" y="160" width="64" height="7" fill="#8b5cf6"/>
-  <rect x="206" y="160" width="72" height="7" fill="#22c55e"/>
-  <rect x="278" y="160" width="58" height="7" fill="#f97316"/>
-  <rect x="336" y="160" width="36" height="7" rx="3.5" fill="#f6c915"/>
+  <rect x="24" y="170" width="348" height="6" rx="3" fill="#eaeef2"/>
+  <rect x="24" y="170" width="126" height="6" rx="3" fill="#2f80ed"/>
+  <rect x="150" y="170" width="76" height="6" fill="#8b5cf6"/>
+  <rect x="226" y="170" width="82" height="6" fill="#22c55e"/>
+  <rect x="308" y="170" width="72" height="6" rx="3" fill="#f97316"/>
 </svg>
