@@ -96,6 +96,17 @@ const readme = `\
   </a>
 </p>
 
+### Profile Stats
+
+<p align="center">
+  <img width="410" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/github-stats.svg" alt="GitHub stats" />
+  <img width="410" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/top-langs.svg" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img width="830" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/wakatime.svg" alt="WakaTime stats" />
+</p>
+
 <p align="center">
   <img width="520" src="https://streak-stats.demolab.com?user=${username}&amp;hide_border=true" alt="GitHub streak stats" />
 </p>
