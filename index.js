@@ -17,58 +17,6 @@ function generateProgressBar() {
   return `{ ${progressBar} }`;
 }
 
-const featuredProjects = [
-  {
-    title: "Project Performance Evaluation of Bandit Algorithms",
-    repo: "Project-Performance-Evaluation-of-Bandit-Algorithms",
-    card: "bandit.svg",
-  },
-  {
-    title: "Deep Learning Dynamic MRI Reconstruction",
-    repo: "Deep_learning_Dynamic_MRI_Reconstruction",
-    card: "dynamic-mri.svg",
-  },
-  {
-    title: "Deep Learning Cardiac Cine MRI",
-    repo: "Deep_learning_Cardiac_Cine_MRI",
-    card: "cardiac-cine-mri.svg",
-  },
-  {
-    title: "Building a Toy RVC CPU",
-    repo: "Building-a-toy-RVC-CPU",
-    card: "rvc-cpu.svg",
-  },
-  {
-    title: "Flappy Bird Game on Longan Nano",
-    repo: "Flappy-bird-game-on-Longan-Nano",
-    card: "flappy-bird.svg",
-  },
-  {
-    title: "2D Self Driving Simulator",
-    repo: "2D_Self_Driving_Simulator",
-    card: "self-driving.svg",
-  },
-];
-
-const featuredProjectRows = featuredProjects
-  .reduce((rows, project, index) => {
-    const rowIndex = Math.floor(index / 2);
-    rows[rowIndex] = rows[rowIndex] || [];
-    rows[rowIndex].push(project);
-    return rows;
-  }, [])
-  .map((row) => {
-    const cards = row
-      .map(
-        ({ title, repo, card }) =>
-          `<a href="https://github.com/${username}/${repo}"><img width="410" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/project-cards/${card}" alt="${title}" /></a>`,
-      )
-      .join("\n  ");
-
-    return `<p align="center">\n  ${cards}\n</p>`;
-  })
-  .join("\n\n");
-
 const readme = `\
 ### Hi there 👋
 
@@ -96,31 +44,16 @@ const readme = `\
   </a>
 </p>
 
-### Profile Stats
-
 <p align="center">
-  <img width="410" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/github-stats.svg" alt="GitHub stats" />
-  <img width="410" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/top-langs.svg" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img width="830" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/wakatime.svg" alt="WakaTime stats" />
-</p>
-
-<p align="center">
-  <img width="520" src="https://streak-stats.demolab.com?user=${username}&amp;hide_border=true" alt="GitHub streak stats" />
-</p>
-
-<p align="center">
+  <img align="center" width="400" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/github-stats.svg" alt="GitHub stats" />
+  <img align="center" width="400" src="https://streak-stats.demolab.com?user=${username}&amp;theme=transparent&amp;date_format=%5BY.%5Dn.j&amp;hide_border=true" alt="GitHub streak stats" />
+  <br />
   <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=${username}&amp;theme=github-compact&amp;hide_border=true&amp;area=true" alt="GitHub activity graph" />
-</p>
-
-### Featured Projects
-
-${featuredProjectRows}
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=github,py,c,cpp,md,vscode,matlab,bash,git,gitlab,docker,linux,powershell&amp;theme=light" alt="Skill icons" />
+  <br />
+  <img align="center" width="480" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/wakatime.svg" alt="WakaTime stats" />
+  <img align="center" width="320" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/top-langs.svg" alt="Top languages" />
+  <br />
+  <img align="center" src="https://skillicons.dev/icons?i=github,py,c,cpp,md,vscode,matlab,bash,git,gitlab,docker,linux,powershell&amp;theme=light" alt="Skill icons" />
 </p>
 
 <p align="center">
