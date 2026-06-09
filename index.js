@@ -1,5 +1,4 @@
 const username = "3b1b-sh";
-const wakatimeUsername = "Epiphany_Resolution";
 
 const thisYear = new Date().getUTCFullYear();
 const startTimeOfThisYear = Date.UTC(thisYear, 0, 1, 0, 0, 0);
@@ -19,15 +18,36 @@ function generateProgressBar() {
 }
 
 const featuredProjects = [
-  [
-    "Project Performance Evaluation of Bandit Algorithms",
-    "Project-Performance-Evaluation-of-Bandit-Algorithms",
-  ],
-  ["Deep Learning Dynamic MRI Reconstruction", "Deep_learning_Dynamic_MRI_Reconstruction"],
-  ["Deep Learning Cardiac Cine MRI", "Deep_learning_Cardiac_Cine_MRI"],
-  ["Building a Toy RVC CPU", "Building-a-toy-RVC-CPU"],
-  ["Flappy Bird Game on Longan Nano", "Flappy-bird-game-on-Longan-Nano"],
-  ["2D Self Driving Simulator", "2D_Self_Driving_Simulator"],
+  {
+    title: "Project Performance Evaluation of Bandit Algorithms",
+    repo: "Project-Performance-Evaluation-of-Bandit-Algorithms",
+    card: "bandit.svg",
+  },
+  {
+    title: "Deep Learning Dynamic MRI Reconstruction",
+    repo: "Deep_learning_Dynamic_MRI_Reconstruction",
+    card: "dynamic-mri.svg",
+  },
+  {
+    title: "Deep Learning Cardiac Cine MRI",
+    repo: "Deep_learning_Cardiac_Cine_MRI",
+    card: "cardiac-cine-mri.svg",
+  },
+  {
+    title: "Building a Toy RVC CPU",
+    repo: "Building-a-toy-RVC-CPU",
+    card: "rvc-cpu.svg",
+  },
+  {
+    title: "Flappy Bird Game on Longan Nano",
+    repo: "Flappy-bird-game-on-Longan-Nano",
+    card: "flappy-bird.svg",
+  },
+  {
+    title: "2D Self Driving Simulator",
+    repo: "2D_Self_Driving_Simulator",
+    card: "self-driving.svg",
+  },
 ];
 
 const featuredProjectRows = featuredProjects
@@ -38,12 +58,16 @@ const featuredProjectRows = featuredProjects
     return rows;
   }, [])
   .map((row) => {
-    const cells = row.map(
-      ([title, repo]) => `[${title}](https://github.com/${username}/${repo})`,
-    );
-    return `| ${cells[0]} | ${cells[1]} |`;
+    const cards = row
+      .map(
+        ({ title, repo, card }) =>
+          `<a href="https://github.com/${username}/${repo}"><img width="410" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/project-cards/${card}" alt="${title}" /></a>`,
+      )
+      .join("\n  ");
+
+    return `<p align="center">\n  ${cards}\n</p>`;
   })
-  .join("\n");
+  .join("\n\n");
 
 const readme = `\
 ### Hi there 👋
@@ -73,23 +97,15 @@ const readme = `\
 </p>
 
 <p align="center">
-  <img width="400" src="https://github-readme-stats.vercel.app/api?username=${username}&amp;theme=buefy&amp;include_all_commits=true&amp;show_icons=true&amp;hide_border=true" alt="GitHub stats" />
-  <img width="400" src="https://streak-stats.demolab.com?user=${username}&amp;hide_border=true" alt="GitHub streak stats" />
+  <img width="520" src="https://streak-stats.demolab.com?user=${username}&amp;hide_border=true" alt="GitHub streak stats" />
 </p>
 
 <p align="center">
   <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=${username}&amp;theme=github-compact&amp;hide_border=true&amp;area=true" alt="GitHub activity graph" />
 </p>
 
-<p align="center">
-  <img width="420" src="https://github-readme-stats.vercel.app/api/wakatime?username=${wakatimeUsername}&amp;theme=transparent&amp;hide_border=true&amp;layout=compact&amp;langs_count=22" alt="WakaTime stats" />
-  <img width="330" src="https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&amp;theme=transparent&amp;hide_border=true&amp;layout=donut-vertical&amp;langs_count=7" alt="Top languages" />
-</p>
-
 ### Featured Projects
 
-| Project | Project |
-| --- | --- |
 ${featuredProjectRows}
 
 <p align="center">
