@@ -1,0 +1,10 @@
+<svg width="420" height="140" viewBox="0 0 420 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="419" height="139" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="24" y="34" fill="#0969da" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Project Performance Evaluation</text>
+  <text x="24" y="56" fill="#0969da" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">of Bandit Algorithms</text>
+  <text x="24" y="84" fill="#57606a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">ShanghaiTech SI140 Project: Performance</text>
+  <text x="24" y="101" fill="#57606a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Evaluation of Bandit Algorithms</text>
+  <circle cx="30" cy="120" r="5" fill="#DA5B0B"/>
+  <text x="42" y="124" fill="#57606a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Jupyter Notebook</text>
+  <text x="294" y="124" fill="#0969da" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">View repository →</text>
+</svg>
