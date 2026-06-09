@@ -25,13 +25,13 @@
 </p>
 
 <p align="center">
-  <img align="center" width="400" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/github-stats.svg?v=20260609-card2" alt="GitHub stats" />
+  <img align="center" width="400" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/github-stats.svg?v=20260609-card3" alt="GitHub stats" />
   <img align="center" width="400" src="https://streak-stats.demolab.com?user=3b1b-sh&amp;theme=transparent&amp;date_format=%5BY.%5Dn.j&amp;hide_border=true" alt="GitHub streak stats" />
   <br />
   <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=3b1b-sh&amp;theme=github-compact&amp;hide_border=true&amp;area=true" alt="GitHub activity graph" />
   <br />
-  <img align="center" width="480" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/wakatime.svg?v=20260609-card2" alt="WakaTime stats" />
-  <img align="center" width="320" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/top-langs.svg?v=20260609-card2" alt="Top languages" />
+  <img align="center" width="480" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/wakatime.svg?v=20260609-card3" alt="WakaTime stats" />
+  <img align="center" width="320" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/top-langs.svg?v=20260609-card3" alt="Top languages" />
   <br />
   <img align="center" src="https://skillicons.dev/icons?i=github,py,c,cpp,md,vscode,matlab,bash,git,gitlab,docker,linux,powershell&amp;theme=light" alt="Skill icons" />
 </p>
