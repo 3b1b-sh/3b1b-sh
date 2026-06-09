@@ -1,5 +1,5 @@
 const username = "3b1b-sh";
-const statCardVersion = "20260609-card3";
+const statCardVersion = "20260610-card4";
 
 const thisYear = new Date().getUTCFullYear();
 const startTimeOfThisYear = Date.UTC(thisYear, 0, 1, 0, 0, 0);
