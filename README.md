@@ -4,7 +4,7 @@
 
 ---
 
-⏰ Updated on Tue, 09 Jun 2026 08:46:01 GMT
+⏰ Updated on Tue, 09 Jun 2026 08:59:22 GMT
 
 ![Progress Bar CI](https://github.com/3b1b-sh/3b1b-sh/actions/workflows/main.yml/badge.svg)
 
@@ -25,26 +25,29 @@
 </p>
 
 <p align="center">
-  <img width="400" src="https://github-readme-stats.vercel.app/api?username=3b1b-sh&amp;theme=buefy&amp;include_all_commits=true&amp;show_icons=true&amp;hide_border=true" alt="GitHub stats" />
-  <img width="400" src="https://streak-stats.demolab.com?user=3b1b-sh&amp;hide_border=true" alt="GitHub streak stats" />
+  <img width="520" src="https://streak-stats.demolab.com?user=3b1b-sh&amp;hide_border=true" alt="GitHub streak stats" />
 </p>
 
 <p align="center">
   <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=3b1b-sh&amp;theme=github-compact&amp;hide_border=true&amp;area=true" alt="GitHub activity graph" />
 </p>
 
-<p align="center">
-  <img width="420" src="https://github-readme-stats.vercel.app/api/wakatime?username=Epiphany_Resolution&amp;theme=transparent&amp;hide_border=true&amp;layout=compact&amp;langs_count=22" alt="WakaTime stats" />
-  <img width="330" src="https://github-readme-stats.vercel.app/api/top-langs/?username=3b1b-sh&amp;theme=transparent&amp;hide_border=true&amp;layout=donut-vertical&amp;langs_count=7" alt="Top languages" />
-</p>
-
 ### Featured Projects
 
-| Project | Project |
-| --- | --- |
-| [Project Performance Evaluation of Bandit Algorithms](https://github.com/3b1b-sh/Project-Performance-Evaluation-of-Bandit-Algorithms) | [Deep Learning Dynamic MRI Reconstruction](https://github.com/3b1b-sh/Deep_learning_Dynamic_MRI_Reconstruction) |
-| [Deep Learning Cardiac Cine MRI](https://github.com/3b1b-sh/Deep_learning_Cardiac_Cine_MRI) | [Building a Toy RVC CPU](https://github.com/3b1b-sh/Building-a-toy-RVC-CPU) |
-| [Flappy Bird Game on Longan Nano](https://github.com/3b1b-sh/Flappy-bird-game-on-Longan-Nano) | [2D Self Driving Simulator](https://github.com/3b1b-sh/2D_Self_Driving_Simulator) |
+<p align="center">
+  <a href="https://github.com/3b1b-sh/Project-Performance-Evaluation-of-Bandit-Algorithms"><img width="410" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/project-cards/bandit.svg" alt="Project Performance Evaluation of Bandit Algorithms" /></a>
+  <a href="https://github.com/3b1b-sh/Deep_learning_Dynamic_MRI_Reconstruction"><img width="410" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/project-cards/dynamic-mri.svg" alt="Deep Learning Dynamic MRI Reconstruction" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/3b1b-sh/Deep_learning_Cardiac_Cine_MRI"><img width="410" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/project-cards/cardiac-cine-mri.svg" alt="Deep Learning Cardiac Cine MRI" /></a>
+  <a href="https://github.com/3b1b-sh/Building-a-toy-RVC-CPU"><img width="410" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/project-cards/rvc-cpu.svg" alt="Building a Toy RVC CPU" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/3b1b-sh/Flappy-bird-game-on-Longan-Nano"><img width="410" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/project-cards/flappy-bird.svg" alt="Flappy Bird Game on Longan Nano" /></a>
+  <a href="https://github.com/3b1b-sh/2D_Self_Driving_Simulator"><img width="410" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/project-cards/self-driving.svg" alt="2D Self Driving Simulator" /></a>
+</p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=github,py,c,cpp,md,vscode,matlab,bash,git,gitlab,docker,linux,powershell&amp;theme=light" alt="Skill icons" />
