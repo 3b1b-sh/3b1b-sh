@@ -1,35 +1,41 @@
 <svg width="320" height="205" viewBox="0 0 320 205" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .title { font: 700 18px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #2f80ed; }
-    .label { font: 500 13px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #24292f; }
-    .value { font: 500 12px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #57606a; }
+    .label { font: 600 12px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #24292f; }
+    .value { font: 500 11px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #57606a; }
+    .center { font: 700 20px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #24292f; }
+    .muted { font: 500 10px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8c959f; }
   </style>
+
   <text x="20" y="32" class="title">Top Languages</text>
-  <rect x="20" y="48" width="280" height="10" rx="5" fill="#eaeef2"/>
-  <rect x="20" y="48" width="102" height="10" rx="5" fill="#3572A5"/>
-  <rect x="122" y="48" width="51" height="10" fill="#3178C6"/>
-  <rect x="173" y="48" width="51" height="10" fill="#DA5B0B"/>
-  <rect x="224" y="48" width="25" height="10" fill="#f1e05a"/>
-  <rect x="249" y="48" width="25" height="10" fill="#e34c26"/>
-  <rect x="274" y="48" width="26" height="10" rx="5" fill="#555555"/>
 
-  <circle cx="24" cy="84" r="4" fill="#3572A5"/>
-  <text x="38" y="88" class="label">Python</text>
-  <text x="296" y="88" class="value" text-anchor="end">4 repos</text>
+  <circle cx="82" cy="112" r="43" fill="none" stroke="#eaeef2" stroke-width="13"/>
+  <circle cx="82" cy="112" r="43" fill="none" stroke="#3572A5" stroke-width="13" pathLength="100" stroke-dasharray="36.4 63.6" stroke-dashoffset="0" transform="rotate(-90 82 112)"/>
+  <circle cx="82" cy="112" r="43" fill="none" stroke="#3178C6" stroke-width="13" pathLength="100" stroke-dasharray="18.2 81.8" stroke-dashoffset="-36.4" transform="rotate(-90 82 112)"/>
+  <circle cx="82" cy="112" r="43" fill="none" stroke="#DA5B0B" stroke-width="13" pathLength="100" stroke-dasharray="18.2 81.8" stroke-dashoffset="-54.6" transform="rotate(-90 82 112)"/>
+  <circle cx="82" cy="112" r="43" fill="none" stroke="#f1e05a" stroke-width="13" pathLength="100" stroke-dasharray="9.1 90.9" stroke-dashoffset="-72.8" transform="rotate(-90 82 112)"/>
+  <circle cx="82" cy="112" r="43" fill="none" stroke="#e34c26" stroke-width="13" pathLength="100" stroke-dasharray="9.1 90.9" stroke-dashoffset="-81.9" transform="rotate(-90 82 112)"/>
+  <circle cx="82" cy="112" r="43" fill="none" stroke="#555555" stroke-width="13" pathLength="100" stroke-dasharray="9.1 90.9" stroke-dashoffset="-90.9" transform="rotate(-90 82 112)"/>
+  <text x="82" y="109" text-anchor="middle" class="center">11</text>
+  <text x="82" y="126" text-anchor="middle" class="muted">repos</text>
 
-  <circle cx="24" cy="110" r="4" fill="#3178C6"/>
-  <text x="38" y="114" class="label">TypeScript</text>
-  <text x="296" y="114" class="value" text-anchor="end">2 repos</text>
+  <circle cx="158" cy="70" r="4" fill="#3572A5"/>
+  <text x="171" y="74" class="label">Python</text>
+  <text x="300" y="74" class="value" text-anchor="end">36.4%</text>
 
-  <circle cx="24" cy="136" r="4" fill="#DA5B0B"/>
-  <text x="38" y="140" class="label">Jupyter Notebook</text>
-  <text x="296" y="140" class="value" text-anchor="end">2 repos</text>
+  <circle cx="158" cy="95" r="4" fill="#3178C6"/>
+  <text x="171" y="99" class="label">TypeScript</text>
+  <text x="300" y="99" class="value" text-anchor="end">18.2%</text>
 
-  <circle cx="24" cy="162" r="4" fill="#f1e05a"/>
-  <text x="38" y="166" class="label">JavaScript</text>
-  <text x="296" y="166" class="value" text-anchor="end">1 repo</text>
+  <circle cx="158" cy="120" r="4" fill="#DA5B0B"/>
+  <text x="171" y="124" class="label">Jupyter</text>
+  <text x="300" y="124" class="value" text-anchor="end">18.2%</text>
 
-  <circle cx="24" cy="188" r="4" fill="#e34c26"/>
-  <text x="38" y="192" class="label">HTML / C</text>
-  <text x="296" y="192" class="value" text-anchor="end">1 each</text>
+  <circle cx="158" cy="145" r="4" fill="#f1e05a"/>
+  <text x="171" y="149" class="label">JavaScript</text>
+  <text x="300" y="149" class="value" text-anchor="end">9.1%</text>
+
+  <circle cx="158" cy="170" r="4" fill="#e34c26"/>
+  <text x="171" y="174" class="label">HTML / C</text>
+  <text x="300" y="174" class="value" text-anchor="end">9.1% each</text>
 </svg>
