@@ -1,4 +1,4 @@
-<svg width="320" height="190" viewBox="0 0 320 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="320" height="205" viewBox="0 0 320 205" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .title { font: 700 18px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #2f80ed; }
     .label { font: 500 13px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #24292f; }
@@ -29,7 +29,7 @@
   <text x="38" y="166" class="label">JavaScript</text>
   <text x="296" y="166" class="value" text-anchor="end">1 repo</text>
 
-  <circle cx="168" cy="162" r="4" fill="#e34c26"/>
-  <text x="182" y="166" class="label">HTML / C</text>
-  <text x="296" y="166" class="value" text-anchor="end">1 each</text>
+  <circle cx="24" cy="188" r="4" fill="#e34c26"/>
+  <text x="38" y="192" class="label">HTML / C</text>
+  <text x="296" y="192" class="value" text-anchor="end">1 each</text>
 </svg>
