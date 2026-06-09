@@ -1,4 +1,5 @@
 const username = "3b1b-sh";
+const statCardVersion = "20260609-card2";
 
 const thisYear = new Date().getUTCFullYear();
 const startTimeOfThisYear = Date.UTC(thisYear, 0, 1, 0, 0, 0);
@@ -45,13 +46,13 @@ const readme = `\
 </p>
 
 <p align="center">
-  <img align="center" width="400" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/github-stats.svg" alt="GitHub stats" />
+  <img align="center" width="400" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/github-stats.svg?v=${statCardVersion}" alt="GitHub stats" />
   <img align="center" width="400" src="https://streak-stats.demolab.com?user=${username}&amp;theme=transparent&amp;date_format=%5BY.%5Dn.j&amp;hide_border=true" alt="GitHub streak stats" />
   <br />
   <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=${username}&amp;theme=github-compact&amp;hide_border=true&amp;area=true" alt="GitHub activity graph" />
   <br />
-  <img align="center" width="480" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/wakatime.svg" alt="WakaTime stats" />
-  <img align="center" width="320" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/top-langs.svg" alt="Top languages" />
+  <img align="center" width="480" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/wakatime.svg?v=${statCardVersion}" alt="WakaTime stats" />
+  <img align="center" width="320" src="https://raw.githubusercontent.com/${username}/${username}/master/assets/stats/top-langs.svg?v=${statCardVersion}" alt="Top languages" />
   <br />
   <img align="center" src="https://skillicons.dev/icons?i=github,py,c,cpp,md,vscode,matlab,bash,git,gitlab,docker,linux,powershell&amp;theme=light" alt="Skill icons" />
 </p>
