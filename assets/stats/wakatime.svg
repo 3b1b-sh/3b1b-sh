@@ -1,0 +1,22 @@
+<svg width="840" height="220" viewBox="0 0 840 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="839" height="219" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="28" y="36" fill="#0969da" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">WakaTime Stats</text>
+  <text x="28" y="58" fill="#57606a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Public all-time language/editor summary since Sep 5 2024</text>
+  <text x="28" y="92" fill="#24292f" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Languages</text>
+  <rect x="130" y="80" width="470" height="12" rx="6" fill="#eaeef2"/>
+  <rect x="130" y="80" width="233" height="12" rx="6" fill="#3572A5"/>
+  <rect x="363" y="80" width="97" height="12" fill="#083fa1"/>
+  <rect x="460" y="80" width="69" height="12" fill="#3D6117"/>
+  <text x="620" y="92" fill="#57606a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Python 49.6% · Markdown 20.6% · TeX 14.6%</text>
+  <text x="28" y="130" fill="#24292f" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Editors</text>
+  <rect x="130" y="118" width="470" height="12" rx="6" fill="#eaeef2"/>
+  <rect x="130" y="118" width="406" height="12" rx="6" fill="#2f80ed"/>
+  <rect x="536" y="118" width="64" height="12" fill="#8b5cf6"/>
+  <text x="620" y="130" fill="#57606a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">VS Code 86.4% · Claude Code 13.6%</text>
+  <text x="28" y="168" fill="#24292f" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Systems</text>
+  <rect x="130" y="156" width="470" height="12" rx="6" fill="#eaeef2"/>
+  <rect x="130" y="156" width="349" height="12" rx="6" fill="#0078d4"/>
+  <rect x="479" y="156" width="121" height="12" fill="#f6c915"/>
+  <text x="620" y="168" fill="#57606a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Windows 74.3% · Linux 25.7%</text>
+  <text x="28" y="202" fill="#57606a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Categories: Coding 56.9% · AI Coding 42.5% · Writing Tests 0.5%</text>
+</svg>
