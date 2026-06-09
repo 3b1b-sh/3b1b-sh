@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img width="800" src="https://capsule-render.vercel.app/api?type=waving&amp;color=timeGradient&amp;height=300&amp;section=header&amp;text=Hi%20There&amp;fontSize=90&amp;fontAlign=50&amp;fontAlignY=30&amp;desc=I%20am%20Eric%20Hu&amp;descAlign=50&amp;descSize=30&amp;descAlignY=60&amp;animation=twinkling" alt="Hi There" />
+  <img width="800" src="https://capsule-render.vercel.app/api?type=waving&amp;color=timeGradient&amp;height=300&amp;section=header&amp;text=Hi%20There&amp;fontSize=90&amp;fontAlign=50&amp;fontAlignY=30&amp;desc=I%20am%20Gubin%20Hu&amp;descAlign=50&amp;descSize=30&amp;descAlignY=60&amp;animation=twinkling" alt="Hi There" />
 </p>
 
 <p align="center">
