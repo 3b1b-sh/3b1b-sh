@@ -1,0 +1,9 @@
+<svg width="420" height="140" viewBox="0 0 420 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="419" height="139" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="24" y="34" fill="#0969da" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">2D Self Driving Simulator</text>
+  <text x="24" y="78" fill="#57606a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">ShanghaiTech CS181 24 Spring</text>
+  <text x="24" y="95" fill="#57606a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">final project</text>
+  <circle cx="30" cy="120" r="5" fill="#3572A5"/>
+  <text x="42" y="124" fill="#57606a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Python</text>
+  <text x="294" y="124" fill="#0969da" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">View repository →</text>
+</svg>
