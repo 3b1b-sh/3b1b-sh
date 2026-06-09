@@ -24,6 +24,17 @@
   </a>
 </p>
 
+### Profile Stats
+
+<p align="center">
+  <img width="410" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/github-stats.svg" alt="GitHub stats" />
+  <img width="410" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/top-langs.svg" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img width="830" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/wakatime.svg" alt="WakaTime stats" />
+</p>
+
 <p align="center">
   <img width="520" src="https://streak-stats.demolab.com?user=3b1b-sh&amp;hide_border=true" alt="GitHub streak stats" />
 </p>
