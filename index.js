@@ -25,14 +25,14 @@ const PROFILE = {
   name: "Gubin (Eric) Hu",
   greeting: "HELLO, I AM",
   tagline: "Embodied AI · Humanoid Robot Learning",
-  affiliation: "Senior undergraduate @ ShanghaiTech University · Shanghai, China",
+  affiliation: "B.Eng. @ ShanghaiTech University → incoming PhD @ Fudan University · Shanghai, China",
   chips: ["Whole-body Control", "Motion Imitation", "Unitree G1 · Real Robot"],
 
   about: [
     "🤖 I work on **embodied AI** — teaching humanoid robots to move: whole-body motion control, imitation from human motion, and sim-to-real transfer.",
     "🦾 Hands-on with real humanoid hardware (**Unitree G1**): motion retargeting, tracking policies, and deployment on the physical robot.",
     "🧠 Earlier projects span deep learning for medical imaging (MRI reconstruction), classic AI, and computer systems (a RISC-V CPU, bare-metal embedded).",
-    "🎓 Senior undergraduate at **ShanghaiTech University**, continuing into PhD research in embodied AI.",
+    "🎓 B.Eng. from **ShanghaiTech University** (2026) → incoming direct-PhD student at **Fudan University**, working on embodied AI.",
     "📫 Always happy to chat about robots — reach me via the badges above.",
   ],
 
@@ -665,6 +665,115 @@ ${pic(raw("assets/stats/wakatime-light.svg", ver), raw("assets/stats/wakatime-da
 }
 
 /* ------------------------------------------------------------------ */
+/* Local preview (gitignored) — full README mock-up in both themes    */
+/* ------------------------------------------------------------------ */
+
+function previewHTML(stats) {
+  const bold = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+
+  const pane = (t) => {
+    const s = t.suffix;
+    const badges = PROFILE.links
+      .map((l) => `<a href="${l.href}"><img alt="${esc(l.label)}" src="${badgeURL(l)}"></a>`)
+      .join("\n        ");
+    const about = PROFILE.about.map((line) => `<li>${bold(line)}</li>`).join("\n      ");
+    const rows = [];
+    for (let i = 0; i < PROFILE.projects.length; i += 2) {
+      const cells = PROFILE.projects
+        .slice(i, i + 2)
+        .map((p) => {
+          const url = `https://github.com/${USERNAME}/${p.repo}`;
+          return `<td><a href="${url}"><b>${esc(p.title)}</b></a><br><sub>${esc(p.desc)}</sub><br><br>
+          <img src="https://img.shields.io/github/languages/top/${USERNAME}/${p.repo}?style=flat-square">
+          <img src="https://img.shields.io/github/stars/${USERNAME}/${p.repo}?style=flat-square&label=%E2%98%85&color=8b5cf6"></td>`;
+        })
+        .join("\n        ");
+      rows.push(`<tr>\n        ${cells}\n        </tr>`);
+    }
+    const snake =
+      s === "dark"
+        ? `https://raw.githubusercontent.com/${USERNAME}/${USERNAME}/output/github-contribution-grid-snake-dark.svg`
+        : `https://raw.githubusercontent.com/${USERNAME}/${USERNAME}/output/github-contribution-grid-snake.svg`;
+    return `
+  <div class="pane ${s}">
+    <div class="markdown-body">
+      <div class="center">
+        <img src="assets/hero-${s}.svg" width="880">
+        <p>
+        ${badges}
+        </p>
+        <img src="assets/stats/year-${s}.svg" width="880">
+      </div>
+      <h2>🧭 About</h2>
+      <ul>
+      ${about}
+      </ul>
+      <h2>🔬 Featured Projects</h2>
+      <table>
+        ${rows.join("\n        ")}
+      </table>
+      <h2>🛠️ Tech Stack</h2>
+      <div class="center">
+        <img src="https://skillicons.dev/icons?i=${PROFILE.skills}&theme=${s}">
+      </div>
+      <h2>📊 Stats</h2>
+      <div class="center">
+        <img src="assets/stats/overview-${s}.svg">&nbsp;<img src="assets/stats/languages-${s}.svg">
+        <br><br>
+        <img src="assets/stats/wakatime-${s}.svg">
+      </div>
+      <details open>
+        <summary>🐍 Contribution snake</summary>
+        <br>
+        <div class="center"><img src="${snake}"></div>
+      </details>
+      <hr>
+      <div class="center"><sub>⏰ Auto-refreshed every 6 hours by GitHub Actions · last update ${new Date().toUTCString()} · <img src="https://komarev.com/ghpvc/?username=${USERNAME}&abbreviated=true&color=blueviolet&style=flat-square"></sub></div>
+    </div>
+  </div>`;
+  };
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profile README preview — @${USERNAME}</title>
+<style>
+  body { margin: 0; font: 16px/1.6 -apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+  .banner { padding: 10px 24px; background: #fff8c5; color: #1f2328; font-size: 13px; border-bottom: 1px solid #d4a72c66; position: sticky; top: 0; }
+  .pane { padding: 40px 16px; }
+  .pane.light { background: #ffffff; color: #1f2328; }
+  .pane.dark { background: #0d1117; color: #e6edf3; }
+  .markdown-body { max-width: 896px; margin: 0 auto; }
+  .center { text-align: center; }
+  img { max-width: 100%; vertical-align: middle; }
+  h2 { font-size: 1.5em; font-weight: 600; padding-bottom: .3em; margin: 24px 0 16px; border-bottom: 1px solid; }
+  .light h2, .light hr { border-color: #d8dee4; }
+  .dark h2, .dark hr { border-color: #30363d; }
+  hr { border: 0; border-top: 1px solid; margin: 24px 0; }
+  a { text-decoration: none; }
+  .light a { color: #0969da; }
+  .dark a { color: #58a6ff; }
+  table { border-collapse: collapse; width: 100%; }
+  td { width: 50%; padding: 6px 13px; border: 1px solid; vertical-align: top; }
+  .light td { border-color: #d8dee4; }
+  .dark td { border-color: #30363d; }
+  sub { opacity: .8; }
+  details { margin: 16px 0; }
+  summary { cursor: pointer; }
+</style>
+</head>
+<body>
+<div class="banner">⚠️ Local preview of README.md — top: light mode, bottom: dark mode. GitHub picks one automatically via <code>prefers-color-scheme</code>. The snake images load from the <code>output</code> branch (need network; regenerated daily by CI).</div>
+${pane(THEMES.light)}
+${pane(THEMES.dark)}
+</body>
+</html>
+`;
+}
+
+/* ------------------------------------------------------------------ */
 /* Main                                                                */
 /* ------------------------------------------------------------------ */
 
@@ -687,4 +796,5 @@ ${pic(raw("assets/stats/wakatime-light.svg", ver), raw("assets/stats/wakatime-da
     out(`assets/stats/wakatime-${s}.svg`, wakatimeSVG(theme));
   }
   out("README.md", readmeMD(stats, ver));
+  out("preview.html", previewHTML(stats));
 })();
