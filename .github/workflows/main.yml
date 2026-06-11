@@ -1,27 +1,31 @@
-name: Progress Bar CI
+name: Profile CI
 
 on:
   workflow_dispatch:
   schedule:
     - cron: '0 */6 * * *'
+  push:
+    branches: [master]
 
 jobs:
   build:
-    runs-on: ubuntu-latest  
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-    - uses: actions/checkout@v3  
+    - uses: actions/checkout@v4
     - name: Use Node.js
-      uses: actions/setup-node@v3  
+      uses: actions/setup-node@v4
       with:
-        node-version: '20.x'  
-    - name: Update README.md
-      run: node index.js > README.md
-    - name: Commit change & Push
+        node-version: '20.x'
+    - name: Regenerate README and stat cards
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: node index.js
+    - name: Commit change & Push
       run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '66540507+github-actions[bot]@users.noreply.github.com'
-          git commit -am "bot: update README.md automatically"
-          git push
+        git config user.name 'github-actions[bot]'
+        git config user.email '66540507+github-actions[bot]@users.noreply.github.com'
+        git add -A
+        git diff --cached --quiet || (git commit -m "bot: refresh profile" && git push)

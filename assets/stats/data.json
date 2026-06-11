@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-06-11T07:42:13.663Z",
+  "sinceYear": 2020,
+  "followers": 31,
+  "publicRepos": 12,
+  "totalStars": 56,
+  "totalContributions": 203,
+  "languages": [
+    {
+      "name": "Python",
+      "color": "#3572A5",
+      "count": 4
+    },
+    {
+      "name": "Jupyter Notebook",
+      "color": "#DA5B0B",
+      "count": 2
+    },
+    {
+      "name": "C",
+      "color": "#555555",
+      "count": 1
+    },
+    {
+      "name": "JavaScript",
+      "color": "#f1e05a",
+      "count": 1
+    },
+    {
+      "name": "HTML",
+      "color": "#e34c26",
+      "count": 1
+    }
+  ]
+}

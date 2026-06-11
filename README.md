@@ -1,48 +1,119 @@
-### Hi there 👋
+<div align="center">
 
-⏳ Year progress { █████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 44.15 %
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/hero-dark.svg?v=202606110742">
+  <img alt="Gubin (Eric) Hu — Embodied AI · Humanoid Robot Learning" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/hero-light.svg?v=202606110742" width="880">
+</picture>
+
+<p>
+  <a href="mailto:303570417sh@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-303570417sh%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/eric-hu-0aa9252a8"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Eric%20Hu-0A66C2?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NSAyMC40NWgtMy41NXYtNS41N2MwLTEuMzMtLjAzLTMuMDQtMS44NS0zLjA0LTEuODUgMC0yLjE0IDEuNDUtMi4xNCAyLjk0djUuNjdIOS4zNlY5aDMuNDF2MS41NmguMDVjLjQ3LS45IDEuNjMtMS44NSAzLjM2LTEuODUgMy42IDAgNC4yNyAyLjM3IDQuMjcgNS40NnY2LjI4ek01LjM0IDcuNDNhMi4wNiAyLjA2IDAgMSAxIDAtNC4xMiAyLjA2IDIuMDYgMCAwIDEgMCA0LjEyek03LjEyIDIwLjQ1SDMuNTZWOWgzLjU2djExLjQ1eiIvPjwvc3ZnPg%3D%3D&logoColor=white"></a>
+  <a href="https://github.com/3b1b-sh"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-3b1b--sh-181717?style=flat-square&logo=github&logoColor=white"></a>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/year-dark.svg?v=202606110742">
+  <img alt="Year progress" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/year-light.svg?v=202606110742" width="880">
+</picture>
+
+</div>
+
+## 🧭 About
+
+- 🤖 I work on **embodied AI** — teaching humanoid robots to move: whole-body motion control, imitation from human motion, and sim-to-real transfer.
+- 🦾 Hands-on with real humanoid hardware (**Unitree G1**): motion retargeting, tracking policies, and deployment on the physical robot.
+- 🧠 Earlier projects span deep learning for medical imaging (MRI reconstruction), classic AI, and computer systems (a RISC-V CPU, bare-metal embedded).
+- 🎓 Senior undergraduate at **ShanghaiTech University**, continuing into PhD research in embodied AI.
+- 📫 Always happy to chat about robots — reach me via the badges above.
+
+## 🔬 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+  <a href="https://github.com/3b1b-sh/Deep_learning_Dynamic_MRI_Reconstruction"><b>Dynamic MRI Reconstruction</b></a><br/>
+  <sub>Deep learning for dynamic MRI reconstruction — BME 1312 course project.</sub><br/><br/>
+  <a href="https://github.com/3b1b-sh/Deep_learning_Dynamic_MRI_Reconstruction"><img alt="top language" src="https://img.shields.io/github/languages/top/3b1b-sh/Deep_learning_Dynamic_MRI_Reconstruction?style=flat-square"></a>
+  <a href="https://github.com/3b1b-sh/Deep_learning_Dynamic_MRI_Reconstruction/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/3b1b-sh/Deep_learning_Dynamic_MRI_Reconstruction?style=flat-square&label=%E2%98%85&color=8b5cf6"></a>
+</td>
+<td width="50%">
+  <a href="https://github.com/3b1b-sh/2D_Self_Driving_Simulator"><b>2D Self-Driving Simulator</b></a><br/>
+  <sub>A 2D self-driving simulator with search &amp; planning agents — CS181 (AI) final project.</sub><br/><br/>
+  <a href="https://github.com/3b1b-sh/2D_Self_Driving_Simulator"><img alt="top language" src="https://img.shields.io/github/languages/top/3b1b-sh/2D_Self_Driving_Simulator?style=flat-square"></a>
+  <a href="https://github.com/3b1b-sh/2D_Self_Driving_Simulator/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/3b1b-sh/2D_Self_Driving_Simulator?style=flat-square&label=%E2%98%85&color=8b5cf6"></a>
+</td>
+</tr>
+<tr>
+<td width="50%">
+  <a href="https://github.com/3b1b-sh/Deep_learning_Cardiac_Cine_MRI"><b>Cardiac Cine MRI</b></a><br/>
+  <sub>Deep learning for cardiac cine MRI analysis.</sub><br/><br/>
+  <a href="https://github.com/3b1b-sh/Deep_learning_Cardiac_Cine_MRI"><img alt="top language" src="https://img.shields.io/github/languages/top/3b1b-sh/Deep_learning_Cardiac_Cine_MRI?style=flat-square"></a>
+  <a href="https://github.com/3b1b-sh/Deep_learning_Cardiac_Cine_MRI/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/3b1b-sh/Deep_learning_Cardiac_Cine_MRI?style=flat-square&label=%E2%98%85&color=8b5cf6"></a>
+</td>
+<td width="50%">
+  <a href="https://github.com/3b1b-sh/Flappy-bird-game-on-Longan-Nano"><b>Flappy Bird on Longan Nano</b></a><br/>
+  <sub>Flappy Bird running bare-metal on a RISC-V Longan Nano board — CS110.</sub><br/><br/>
+  <a href="https://github.com/3b1b-sh/Flappy-bird-game-on-Longan-Nano"><img alt="top language" src="https://img.shields.io/github/languages/top/3b1b-sh/Flappy-bird-game-on-Longan-Nano?style=flat-square"></a>
+  <a href="https://github.com/3b1b-sh/Flappy-bird-game-on-Longan-Nano/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/3b1b-sh/Flappy-bird-game-on-Longan-Nano?style=flat-square&label=%E2%98%85&color=8b5cf6"></a>
+</td>
+</tr>
+<tr>
+<td width="50%">
+  <a href="https://github.com/3b1b-sh/Project-Performance-Evaluation-of-Bandit-Algorithms"><b>Bandit Algorithms Evaluation</b></a><br/>
+  <sub>Empirical study of multi-armed bandit algorithms — SI140 (Probability).</sub><br/><br/>
+  <a href="https://github.com/3b1b-sh/Project-Performance-Evaluation-of-Bandit-Algorithms"><img alt="top language" src="https://img.shields.io/github/languages/top/3b1b-sh/Project-Performance-Evaluation-of-Bandit-Algorithms?style=flat-square"></a>
+  <a href="https://github.com/3b1b-sh/Project-Performance-Evaluation-of-Bandit-Algorithms/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/3b1b-sh/Project-Performance-Evaluation-of-Bandit-Algorithms?style=flat-square&label=%E2%98%85&color=8b5cf6"></a>
+</td>
+<td width="50%">
+  <a href="https://github.com/3b1b-sh/Building-a-toy-RVC-CPU"><b>Toy RISC-V CPU</b></a><br/>
+  <sub>A toy RISC-V CPU built from scratch — CS110 (Computer Architecture).</sub><br/><br/>
+  <a href="https://github.com/3b1b-sh/Building-a-toy-RVC-CPU"><img alt="top language" src="https://img.shields.io/github/languages/top/3b1b-sh/Building-a-toy-RVC-CPU?style=flat-square"></a>
+  <a href="https://github.com/3b1b-sh/Building-a-toy-RVC-CPU/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/3b1b-sh/Building-a-toy-RVC-CPU?style=flat-square&label=%E2%98%85&color=8b5cf6"></a>
+</td>
+</tr>
+</table>
+
+## 🛠️ Tech Stack
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,cpp,c,pytorch,latex,matlab,git,github,docker,linux,bash,vscode&theme=dark">
+    <img alt="Tech stack" src="https://skillicons.dev/icons?i=py,cpp,c,pytorch,latex,matlab,git,github,docker,linux,bash,vscode&theme=light">
+  </picture>
+</div>
+
+## 📊 Stats
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/overview-dark.svg?v=202606110742">
+  <img alt="GitHub overview" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/overview-light.svg?v=202606110742">
+</picture>&nbsp;<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/languages-dark.svg?v=202606110742">
+  <img alt="Repository languages" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/languages-light.svg?v=202606110742">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/wakatime-dark.svg?v=202606110742">
+  <img alt="Coding activity" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/wakatime-light.svg?v=202606110742">
+</picture>
+
+</div>
+
+<details>
+<summary>🐍 Contribution snake</summary>
+<br/>
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/output/github-contribution-grid-snake-dark.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/output/github-contribution-grid-snake.svg">
+</picture>
+</div>
+</details>
 
 ---
 
-⏰ Updated on Thu, 11 Jun 2026 03:52:29 GMT
-
-![Progress Bar CI](https://github.com/3b1b-sh/3b1b-sh/actions/workflows/main.yml/badge.svg)
-
-### My GitHub Contribution
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
-</p>
-
-<p align="center">
-  <img width="800" src="https://capsule-render.vercel.app/api?type=waving&amp;color=timeGradient&amp;height=300&amp;section=header&amp;text=Hi%20There&amp;fontSize=90&amp;fontAlign=50&amp;fontAlignY=30&amp;desc=I%20am%20Eric%20Hu&amp;descAlign=50&amp;descSize=30&amp;descAlignY=60&amp;animation=twinkling" alt="Hi There" />
-</p>
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img width="800" src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=30&amp;pause=1000&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;width=1000&amp;height=100&amp;lines=Welcome+to+my+GitHub+profile+page!;I+hope+you+would+like+my+projects!" alt="Typing SVG" />
-  </a>
-</p>
-
-<p align="center">
-  <img align="center" width="400" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/github-stats.svg?v=20260610-card4" alt="GitHub stats" />
-  <img align="center" width="400" src="https://streak-stats.demolab.com?user=3b1b-sh&amp;theme=transparent&amp;date_format=%5BY.%5Dn.j&amp;hide_border=true" alt="GitHub streak stats" />
-  <br />
-  <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=3b1b-sh&amp;theme=github-compact&amp;hide_border=true&amp;area=true" alt="GitHub activity graph" />
-  <br />
-  <img align="center" width="480" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/wakatime.svg?v=20260610-card4" alt="WakaTime stats" />
-  <img align="center" width="320" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/top-langs.svg?v=20260610-card4" alt="Top languages" />
-  <br />
-  <img align="center" src="https://skillicons.dev/icons?i=github,py,c,cpp,md,vscode,matlab,bash,git,gitlab,docker,linux,powershell&amp;theme=light" alt="Skill icons" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/3b1b-sh"><img src="https://img.shields.io/badge/GitHub-3b1b-sh?logo=github" alt="GitHub profile" /></a>
-  <img src="https://komarev.com/ghpvc/?username=3b1b-sh&amp;abbreviated=true&amp;color=yellow" alt="Profile views" />
-</p>
-
-<p align="center">
-  <img width="800" src="https://capsule-render.vercel.app/api?type=waving&amp;color=timeGradient&amp;height=300&amp;section=footer&amp;text=The%20End&amp;fontSize=90&amp;fontAlign=50&amp;fontAlignY=70&amp;desc=Hope%20you%20have%20a%20nice%20day%20!&amp;descAlign=50&amp;descSize=30&amp;descAlignY=40&amp;animation=twinkling" alt="The End" />
-</p>
-
-
+<div align="center">
+<sub>⏰ Auto-refreshed every 6 hours by GitHub Actions · last update Thu, 11 Jun 2026 07:42:13 GMT · <img alt="profile views" src="https://komarev.com/ghpvc/?username=3b1b-sh&abbreviated=true&color=blueviolet&style=flat-square"></sub>
+</div>

@@ -1,0 +1,29 @@
+<svg width="430" height="180" viewBox="0 0 430 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="429" height="179" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="24" y="33" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#2f80ed">Repository Languages</text>
+  <text x="24" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8c959f">by primary language · 9 public repos</text>
+  <defs><clipPath id="langbar"><rect x="24" y="66" width="382" height="12" rx="6"/></clipPath></defs>
+  <rect x="24" y="66" width="382" height="12" rx="6" fill="#eaeef2"/>
+  <g clip-path="url(#langbar)">
+    <rect x="24.00" y="66" width="170.38" height="12" fill="#3572A5"/>
+    <rect x="193.78" y="66" width="85.49" height="12" fill="#DA5B0B"/>
+    <rect x="278.67" y="66" width="43.04" height="12" fill="#555555"/>
+    <rect x="321.11" y="66" width="43.04" height="12" fill="#f1e05a"/>
+    <rect x="363.56" y="66" width="43.04" height="12" fill="#e34c26"/>
+  </g>
+  <circle cx="28" cy="102" r="5" fill="#3572A5"/>
+  <text x="42" y="106" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1f2328">Python</text>
+  <text x="97" y="106" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#8c959f">44.4%</text>
+  <circle cx="230" cy="102" r="5" fill="#DA5B0B"/>
+  <text x="244" y="106" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1f2328">Jupyter Notebook</text>
+  <text x="374" y="106" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#8c959f">22.2%</text>
+  <circle cx="28" cy="126" r="5" fill="#555555"/>
+  <text x="42" y="130" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1f2328">C</text>
+  <text x="59.5" y="130" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#8c959f">11.1%</text>
+  <circle cx="230" cy="126" r="5" fill="#f1e05a"/>
+  <text x="244" y="130" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1f2328">JavaScript</text>
+  <text x="329" y="130" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#8c959f">11.1%</text>
+  <circle cx="28" cy="150" r="5" fill="#e34c26"/>
+  <text x="42" y="154" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1f2328">HTML</text>
+  <text x="82" y="154" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#8c959f">11.1%</text>
+</svg>
