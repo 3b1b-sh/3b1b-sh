@@ -32,7 +32,7 @@ const PROFILE = {
     "🤖 I work on **embodied AI** — teaching humanoid robots to move: whole-body motion control, imitation from human motion, and sim-to-real transfer.",
     "🦾 Hands-on with real humanoid hardware (**Unitree G1**): motion retargeting, tracking policies, and deployment on the physical robot.",
     "🧠 Earlier projects span deep learning for medical imaging (MRI reconstruction), classic AI, and computer systems (a RISC-V CPU, bare-metal embedded).",
-    "🎓 B.Eng. from **ShanghaiTech University** (2026) → incoming direct-PhD student at **Fudan University**, working on embodied AI.",
+    "🎓 B.Eng. from **ShanghaiTech University** (2026) → incoming PhD student at **Fudan University**, working on embodied AI.",
     "📫 Always happy to chat about robots — reach me via the badges above.",
   ],
 
@@ -42,21 +42,21 @@ const PROFILE = {
     {
       label: "Email",
       message: "303570417sh@gmail.com",
-      color: "EA4335",
+      color: "4f46e5",
       logo: "gmail",
       href: "mailto:303570417sh@gmail.com",
     },
     {
       label: "LinkedIn",
       message: "Eric Hu",
-      color: "0A66C2",
+      color: "4f46e5",
       logo: "linkedinDataUri", // simple-icons dropped LinkedIn; we embed our own glyph
       href: "https://www.linkedin.com/in/eric-hu-0aa9252a8",
     },
     {
       label: "GitHub",
       message: "3b1b-sh",
-      color: "181717",
+      color: "4f46e5",
       logo: "github",
       href: "https://github.com/3b1b-sh",
     },
@@ -126,10 +126,8 @@ const THEMES = {
     faint: "#8c959f",
     border: "#d0d7de",
     track: "#eaeef2",
-    accentA: "#2f80ed",
-    accentB: "#8b5cf6",
-    green: "#1a7f37",
-    orange: "#e16f24",
+    accentA: "#4f46e5",
+    accentB: "#0891b2",
   },
   dark: {
     suffix: "dark",
@@ -139,10 +137,8 @@ const THEMES = {
     faint: "#6e7681",
     border: "#30363d",
     track: "#21262d",
-    accentA: "#58a6ff",
-    accentB: "#a78bfa",
-    green: "#3fb950",
-    orange: "#f0883e",
+    accentA: "#818cf8",
+    accentB: "#22d3ee",
   },
 };
 
@@ -369,10 +365,10 @@ const ICONS = {
 function overviewSVG(theme, stats) {
   const t = theme;
   const cells = [
-    { icon: "star", color: t.orange, value: stats.totalStars, label: "Total Stars" },
-    { icon: "person", color: t.accentA, value: stats.followers, label: "Followers" },
-    { icon: "repo", color: t.green, value: stats.publicRepos, label: "Public Repos" },
-    { icon: "graph", color: t.accentB, value: stats.totalContributions, label: `Contributions · since ${stats.sinceYear}` },
+    { icon: "star", color: t.accentA, value: stats.totalStars, label: "Total Stars" },
+    { icon: "person", color: t.accentB, value: stats.followers, label: "Followers" },
+    { icon: "repo", color: t.accentB, value: stats.publicRepos, label: "Public Repos" },
+    { icon: "graph", color: t.accentA, value: stats.totalContributions, label: `Contributions · since ${stats.sinceYear}` },
   ];
   const grid = cells
     .map((c, i) => {
@@ -564,7 +560,7 @@ function badgeURL(link) {
       ? `data:image/svg+xml;base64,${Buffer.from(LINKEDIN_GLYPH).toString("base64")}`
       : link.logo;
   const enc = (s) => encodeURIComponent(s).replace(/-/g, "--").replace(/_/g, "__");
-  return `https://img.shields.io/badge/${enc(link.label)}-${enc(link.message)}-${link.color}?style=flat-square&logo=${encodeURIComponent(logo)}&logoColor=white`;
+  return `https://img.shields.io/badge/${enc(link.label)}-${enc(link.message)}-${link.color}?style=flat-square&labelColor=18181b&logo=${encodeURIComponent(logo)}&logoColor=white`;
 }
 
 function raw(file, ver) {
@@ -594,7 +590,7 @@ function readmeMD(stats, ver) {
   <a href="${url}"><b>${esc(p.title)}</b></a><br/>
   <sub>${esc(p.desc)}</sub><br/><br/>
   <a href="${url}"><img alt="top language" src="https://img.shields.io/github/languages/top/${USERNAME}/${p.repo}?style=flat-square"></a>
-  <a href="${url}/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/${USERNAME}/${p.repo}?style=flat-square&label=%E2%98%85&color=8b5cf6"></a>
+  <a href="${url}/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/${USERNAME}/${p.repo}?style=flat-square&label=%E2%98%85&color=4f46e5"></a>
 </td>`;
       })
       .join("\n");
@@ -643,23 +639,17 @@ ${pic(raw("assets/stats/overview-light.svg", ver), raw("assets/stats/overview-da
 
 ${pic(raw("assets/stats/wakatime-light.svg", ver), raw("assets/stats/wakatime-dark.svg", ver), "Coding activity")}
 
-</div>
-
-<details>
-<summary>🐍 Contribution snake</summary>
-<br/>
-<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/${USERNAME}/${USERNAME}/output/github-contribution-grid-snake-dark.svg">
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/${USERNAME}/${USERNAME}/output/github-contribution-grid-snake.svg">
 </picture>
+
 </div>
-</details>
 
 ---
 
 <div align="center">
-<sub>⏰ Auto-refreshed every 6 hours by GitHub Actions · last update ${updated} · <img alt="profile views" src="https://komarev.com/ghpvc/?username=${USERNAME}&abbreviated=true&color=blueviolet&style=flat-square"></sub>
+<sub>⏰ Auto-refreshed every 6 hours by GitHub Actions · last update ${updated} · <img alt="profile views" src="https://komarev.com/ghpvc/?username=${USERNAME}&abbreviated=true&color=4f46e5&style=flat-square"></sub>
 </div>
 `;
 }
@@ -685,7 +675,7 @@ function previewHTML(stats) {
           const url = `https://github.com/${USERNAME}/${p.repo}`;
           return `<td><a href="${url}"><b>${esc(p.title)}</b></a><br><sub>${esc(p.desc)}</sub><br><br>
           <img src="https://img.shields.io/github/languages/top/${USERNAME}/${p.repo}?style=flat-square">
-          <img src="https://img.shields.io/github/stars/${USERNAME}/${p.repo}?style=flat-square&label=%E2%98%85&color=8b5cf6"></td>`;
+          <img src="https://img.shields.io/github/stars/${USERNAME}/${p.repo}?style=flat-square&label=%E2%98%85&color=4f46e5"></td>`;
         })
         .join("\n        ");
       rows.push(`<tr>\n        ${cells}\n        </tr>`);
@@ -728,7 +718,7 @@ function previewHTML(stats) {
         <div class="center"><img src="${snake}"></div>
       </details>
       <hr>
-      <div class="center"><sub>⏰ Auto-refreshed every 6 hours by GitHub Actions · last update ${new Date().toUTCString()} · <img src="https://komarev.com/ghpvc/?username=${USERNAME}&abbreviated=true&color=blueviolet&style=flat-square"></sub></div>
+      <div class="center"><sub>⏰ Auto-refreshed every 6 hours by GitHub Actions · last update ${new Date().toUTCString()} · <img src="https://komarev.com/ghpvc/?username=${USERNAME}&abbreviated=true&color=4f46e5&style=flat-square"></sub></div>
     </div>
   </div>`;
   };

@@ -1,6 +1,6 @@
 <svg width="880" height="150" viewBox="0 0 880 150" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect x="0.5" y="0.5" width="879" height="149" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-  <text x="24" y="33" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#2f80ed">Coding Activity</text>
+  <text x="24" y="33" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#4f46e5">Coding Activity</text>
   <text x="24" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8c959f">all-time via WakaTime · tracked since Sep 2024 · editors: VS Code 86.4% · Claude Code 13.6%</text>
   <defs><clipPath id="wkbar"><rect x="24" y="66" width="832" height="12" rx="6"/></clipPath></defs>
   <rect x="24" y="66" width="832" height="12" rx="6" fill="#eaeef2"/>
