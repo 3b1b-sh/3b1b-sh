@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/hero-dark.svg?v=202606260923">
-  <img alt="Gubin (Eric) Hu — Embodied AI · Humanoid Robot Learning" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/hero-light.svg?v=202606260923" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/hero-dark.svg?v=202606261421">
+  <img alt="Gubin (Eric) Hu — Embodied AI · Humanoid Robot Learning" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/hero-light.svg?v=202606261421" width="880">
 </picture>
 
 <p>
@@ -12,8 +12,8 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/year-dark.svg?v=202606260923">
-  <img alt="Year progress" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/year-light.svg?v=202606260923" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/year-dark.svg?v=202606261421">
+  <img alt="Year progress" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/year-light.svg?v=202606261421" width="880">
 </picture>
 
 </div>
@@ -87,16 +87,16 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/overview-dark.svg?v=202606260923">
-  <img alt="GitHub overview" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/overview-light.svg?v=202606260923">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/overview-dark.svg?v=202606261421">
+  <img alt="GitHub overview" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/overview-light.svg?v=202606261421">
 </picture>&nbsp;<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/languages-dark.svg?v=202606260923">
-  <img alt="Repository languages" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/languages-light.svg?v=202606260923">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/languages-dark.svg?v=202606261421">
+  <img alt="Repository languages" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/languages-light.svg?v=202606261421">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/wakatime-dark.svg?v=202606260923">
-  <img alt="Coding activity" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/wakatime-light.svg?v=202606260923">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/wakatime-dark.svg?v=202606261421">
+  <img alt="Coding activity" src="https://raw.githubusercontent.com/3b1b-sh/3b1b-sh/master/assets/stats/wakatime-light.svg?v=202606261421">
 </picture>
 
 <picture>
@@ -109,5 +109,5 @@
 ---
 
 <div align="center">
-<sub>⏰ Auto-refreshed every 6 hours by GitHub Actions · last update Fri, 26 Jun 2026 09:23:02 GMT · <img alt="profile views" src="https://komarev.com/ghpvc/?username=3b1b-sh&abbreviated=true&color=4f46e5&style=flat-square"></sub>
+<sub>⏰ Auto-refreshed every 6 hours by GitHub Actions · last update Fri, 26 Jun 2026 14:21:33 GMT · <img alt="profile views" src="https://komarev.com/ghpvc/?username=3b1b-sh&abbreviated=true&color=4f46e5&style=flat-square"></sub>
 </div>
